@@ -1,0 +1,380 @@
+LD
+R0 = a, R1 = 0, R2 = 0, R3 = 0
+R4 = 0, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3001
+
+ADD
+R0 = a, R1 = 0, R2 = 0, R3 = 1
+R4 = 0, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3002
+
+ADD
+R0 = 9, R1 = 0, R2 = 0, R3 = 1
+R4 = 0, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3003
+
+BR
+3004
+b
+R0 = 9, R1 = 0, R2 = 0, R3 = 1
+R4 = 0, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3004
+
+ADD
+R0 = 9, R1 = 0, R2 = 0, R3 = 2
+R4 = 0, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3005
+
+ADD
+R0 = 8, R1 = 0, R2 = 0, R3 = 2
+R4 = 0, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3006
+
+BR
+3007
+8
+R0 = 8, R1 = 0, R2 = 0, R3 = 2
+R4 = 0, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3007
+
+ADD
+R0 = 8, R1 = 1, R2 = 0, R3 = 2
+R4 = 0, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3008
+
+ADD
+R0 = 8, R1 = 1, R2 = 1, R3 = 2
+R4 = 0, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3009
+
+ADD
+R0 = 8, R1 = 1, R2 = 1, R3 = 2
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300a
+
+ADD
+R0 = 8, R1 = 1, R2 = 1, R3 = 2
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300b
+
+ADD
+R0 = 8, R1 = 1, R2 = 2, R3 = 2
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300c
+
+ADD
+R0 = 8, R1 = 1, R2 = 2, R3 = 4
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300d
+
+ADD
+R0 = 7, R1 = 1, R2 = 2, R3 = 4
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300e
+
+BR
+300f
+fffa
+R0 = 7, R1 = 1, R2 = 2, R3 = 4
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3009
+
+ADD
+R0 = 7, R1 = 1, R2 = 2, R3 = 4
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300a
+
+ADD
+R0 = 7, R1 = 2, R2 = 2, R3 = 4
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300b
+
+ADD
+R0 = 7, R1 = 2, R2 = 4, R3 = 4
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300c
+
+ADD
+R0 = 7, R1 = 2, R2 = 4, R3 = 6
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300d
+
+ADD
+R0 = 6, R1 = 2, R2 = 4, R3 = 6
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300e
+
+BR
+300f
+fffa
+R0 = 6, R1 = 2, R2 = 4, R3 = 6
+R4 = 2, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3009
+
+ADD
+R0 = 6, R1 = 2, R2 = 4, R3 = 6
+R4 = 4, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300a
+
+ADD
+R0 = 6, R1 = 4, R2 = 4, R3 = 6
+R4 = 4, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300b
+
+ADD
+R0 = 6, R1 = 4, R2 = 6, R3 = 6
+R4 = 4, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300c
+
+ADD
+R0 = 6, R1 = 4, R2 = 6, R3 = a
+R4 = 4, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300d
+
+ADD
+R0 = 5, R1 = 4, R2 = 6, R3 = a
+R4 = 4, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300e
+
+BR
+300f
+fffa
+R0 = 5, R1 = 4, R2 = 6, R3 = a
+R4 = 4, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3009
+
+ADD
+R0 = 5, R1 = 4, R2 = 6, R3 = a
+R4 = 8, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300a
+
+ADD
+R0 = 5, R1 = 6, R2 = 6, R3 = a
+R4 = 8, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300b
+
+ADD
+R0 = 5, R1 = 6, R2 = a, R3 = a
+R4 = 8, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300c
+
+ADD
+R0 = 5, R1 = 6, R2 = a, R3 = 12
+R4 = 8, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300d
+
+ADD
+R0 = 4, R1 = 6, R2 = a, R3 = 12
+R4 = 8, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300e
+
+BR
+300f
+fffa
+R0 = 4, R1 = 6, R2 = a, R3 = 12
+R4 = 8, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3009
+
+ADD
+R0 = 4, R1 = 6, R2 = a, R3 = 12
+R4 = c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300a
+
+ADD
+R0 = 4, R1 = a, R2 = a, R3 = 12
+R4 = c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300b
+
+ADD
+R0 = 4, R1 = a, R2 = 12, R3 = 12
+R4 = c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300c
+
+ADD
+R0 = 4, R1 = a, R2 = 12, R3 = 1e
+R4 = c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300d
+
+ADD
+R0 = 3, R1 = a, R2 = 12, R3 = 1e
+R4 = c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300e
+
+BR
+300f
+fffa
+R0 = 3, R1 = a, R2 = 12, R3 = 1e
+R4 = c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3009
+
+ADD
+R0 = 3, R1 = a, R2 = 12, R3 = 1e
+R4 = 14, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300a
+
+ADD
+R0 = 3, R1 = 12, R2 = 12, R3 = 1e
+R4 = 14, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300b
+
+ADD
+R0 = 3, R1 = 12, R2 = 1e, R3 = 1e
+R4 = 14, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300c
+
+ADD
+R0 = 3, R1 = 12, R2 = 1e, R3 = 32
+R4 = 14, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300d
+
+ADD
+R0 = 2, R1 = 12, R2 = 1e, R3 = 32
+R4 = 14, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300e
+
+BR
+300f
+fffa
+R0 = 2, R1 = 12, R2 = 1e, R3 = 32
+R4 = 14, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3009
+
+ADD
+R0 = 2, R1 = 12, R2 = 1e, R3 = 32
+R4 = 24, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300a
+
+ADD
+R0 = 2, R1 = 1e, R2 = 1e, R3 = 32
+R4 = 24, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300b
+
+ADD
+R0 = 2, R1 = 1e, R2 = 32, R3 = 32
+R4 = 24, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300c
+
+ADD
+R0 = 2, R1 = 1e, R2 = 32, R3 = 56
+R4 = 24, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300d
+
+ADD
+R0 = 1, R1 = 1e, R2 = 32, R3 = 56
+R4 = 24, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300e
+
+BR
+300f
+fffa
+R0 = 1, R1 = 1e, R2 = 32, R3 = 56
+R4 = 24, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 3009
+
+ADD
+R0 = 1, R1 = 1e, R2 = 32, R3 = 56
+R4 = 3c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300a
+
+ADD
+R0 = 1, R1 = 32, R2 = 32, R3 = 56
+R4 = 3c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300b
+
+ADD
+R0 = 1, R1 = 32, R2 = 56, R3 = 56
+R4 = 3c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300c
+
+ADD
+R0 = 1, R1 = 32, R2 = 56, R3 = 92
+R4 = 3c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 001
+PC = 300d
+
+ADD
+R0 = 0, R1 = 32, R2 = 56, R3 = 92
+R4 = 3c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 010
+PC = 300e
+
+BR
+300f
+fffa
+R0 = 0, R1 = 32, R2 = 56, R3 = 92
+R4 = 3c, R5 = 3ff, R6 = 0, R7 = 0
+COND[NZP] = 010
+PC = 300f
+
+AND
+R0 = 0, R1 = 32, R2 = 56, R3 = 92
+R4 = 3c, R5 = 3ff, R6 = 0, R7 = 92
+COND[NZP] = 001
+PC = 3010
+
+TRAP
+R0 = 0, R1 = 32, R2 = 56, R3 = 92
+R4 = 3c, R5 = 3ff, R6 = 0, R7 = 92
+COND[NZP] = 001
+PC = 0
+
+R0 = 0, R1 = 32, R2 = 56, R3 = 92
+R4 = 3c, R5 = 3ff, R6 = 0, R7 = 92
+COND[NZP] = 001
+PC = 0
+
+cycle = 3b
